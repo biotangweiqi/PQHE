@@ -12,11 +12,16 @@ To solve this weakness, we propose a method for pooled QTL heritability estimati
 R script (pooled_QTL_heritability_estimator.R) can be directly downloaded and used in batch mode of R.
 
 # Required R package
-In the R script (pooled_QTL_heritability_estimator.R), R package [rootSolve](https://cran.r-project.org/web/packages/rootSolve) is used for solving nonlinear equations, thus rootSolve need be installed in R.
+Before using the R script of PQHE, the R package [rootSolve](https://cran.r-project.org/web/packages/rootSolve) must be installed.
 
     install.packages("rootSolve")
 
-# Usage
-At command line interface, enter command like this:
+In the R script (pooled_QTL_heritability_estimator.R), R package [rootSolve](https://cran.r-project.org/web/packages/rootSolve) is used for solving nonlinear equations.
+
+# Command line usage
 
     Rscript pooled_QTL_heritability_estimator.R example_conf.txt
+
+Rscript comes with R, and it can replace R CMD BATCH to run R scripts in R batch mode.
+
+# Examples

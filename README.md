@@ -1,4 +1,4 @@
-# PQHE
+# Pooled QTL Heritability Estimator (PQHE)
 **Pooled QTL Heritability Estimator (PQHE)** is a method to estimate QTL heritability using pooled sequencing data obtained under different experimental designs. This method was implemented via R programming. The R script of PQHE can be used at command line from terminal.
 
 # Introduction
@@ -22,6 +22,6 @@ In the R script (pooled_QTL_heritability_estimator.R), R package [rootSolve](htt
 
     Rscript pooled_QTL_heritability_estimator.R example_conf.txt
 
-Rscript comes with R, and it can replace R CMD BATCH to run R scripts in R batch mode.
+Rscript comes with R, and it can replace R CMD BATCH to run R scripts in R batch mode. The path of Rscript should be added in the system environment.
 
 # Examples

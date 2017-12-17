@@ -20,7 +20,7 @@ In the R script (pooled_QTL_heritability_estimator.R), R package [rootSolve](htt
 
 # Command line usage
 
-    Rscript pooled_QTL_heritability_estimator.R example_conf.txt
+    Rscript estimate_QTL_heritability.R example_conf.txt
 
 Rscript comes with R, and it can replace R CMD BATCH to run R scripts in R batch mode. The path of Rscript should be added in the system environment.
 

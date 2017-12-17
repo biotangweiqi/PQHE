@@ -1,0 +1,8 @@
+# population
+b  = 0.25    # F2 population
+# 50/531
+m1  = 50     # individuals in pool-1
+m2  = 50     # individuals in pool-2
+n   = 531    # sample size of population 
+AF1 = 0.724  # estimated bulked allele frequency in pool-1
+AF2 = 0.114  # estimated bulked allele frequency in pool-2

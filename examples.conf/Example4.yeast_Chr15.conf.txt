@@ -1,0 +1,7 @@
+# population
+b  = 0.5     # haploid population
+# 32/301
+m1  = 32     # individuals in pool-1
+n   = 301    # sample size of population 
+AF1 = 0.125  # estimated bulked allele frequency in pool-1
+AFU = 0.625  # estimated bulked allele frequency in unselected/random pool or total population

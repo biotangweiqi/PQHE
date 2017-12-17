@@ -16,7 +16,7 @@ Before using the R script of PQHE, the R package [rootSolve](https://cran.r-proj
 
     install.packages("rootSolve")
 
-In the R script (pooled_QTL_heritability_estimator.R), R package [rootSolve](https://cran.r-project.org/web/packages/rootSolve) is used for solving nonlinear equations.
+In the R script (estimate_QTL_heritability.R), R package [rootSolve](https://cran.r-project.org/web/packages/rootSolve) is used for solving nonlinear equations.
 
 # Command line usage
 

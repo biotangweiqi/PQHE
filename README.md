@@ -25,3 +25,35 @@ In the R script (pooled_QTL_heritability_estimator.R), R package [rootSolve](htt
 Rscript comes with R, and it can replace R CMD BATCH to run R scripts in R batch mode. The path of Rscript should be added in the system environment.
 
 # Examples
+Example1.rice_Chr3.conf.txt
+b   = 0.25    # F2 population
+m1  = 50     # individuals in pool-1
+m2  = 50     # individuals in pool-2
+n   = 531    # sample size of population 
+AF1 = 0.724  # estimated bulked allele frequency in pool-1
+AF2 = 0.114  # estimated bulked allele frequency in pool-2
+
+
+Example2.rice_Chr6.conf.txt
+b   = 0.5     # RILs population
+m1  = 20     # individuals in pool-1
+m2  = 20     # individuals in pool-2
+n   = 241    # sample size of population 
+AF1 = 0.875  # estimated bulked allele frequency in pool-1
+AF2 = 0.075  # estimated bulked allele frequency in pool-2
+
+
+Example3.yeast_Chr13.conf.txt
+b   = 0.5     # haploid population
+m1  = 32     # individuals in pool-1
+n   = 301    # sample size of population 
+AF1 = 0.865  # estimated bulked allele frequency in pool-1
+
+
+
+Example4.yeast_Chr15.conf.txt
+b  = 0.5     # haploid population
+m1  = 32     # individuals in pool-1
+n   = 301    # sample size of population 
+AF1 = 0.125  # estimated bulked allele frequency in pool-1
+AFU = 0.625  # estimated bulked allele frequency in unselected/random pool or total population

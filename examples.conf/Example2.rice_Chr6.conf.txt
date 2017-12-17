@@ -1,0 +1,8 @@
+# population
+b  = 0.5     # RILs population
+# 20/241
+m1  = 20     # individuals in pool-1
+m2  = 20     # individuals in pool-2
+n   = 241    # sample size of population 
+AF1 = 0.875  # estimated bulked allele frequency in pool-1
+AF2 = 0.075  # estimated bulked allele frequency in pool-2

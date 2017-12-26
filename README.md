@@ -22,11 +22,11 @@ In the R script (estimate_QTL_heritability.R), R package [rootSolve](https://cra
 
     Rscript estimate_QTL_heritability.R example_conf.txt
 
-Rscript comes with R, and it can replace R CMD BATCH to run R scripts in R batch mode. The path of Rscript should be added in the system environment.
+Rscript comes with R, and it can replace R CMD BATCH to run R scripts in R batch mode. The path of Rscript should be added in the system environment. The estimation results will be printed in the terminal.
 
 # Examples
 # Example1.rice_Chr3.conf.txt
-    b   = 0.25    # F2 population
+    b   = 0.25   # F2 population
     m1  = 50     # individuals in pool-1
     m2  = 50     # individuals in pool-2
     n   = 531    # sample size of population 
@@ -35,7 +35,7 @@ Rscript comes with R, and it can replace R CMD BATCH to run R scripts in R batch
 
 
 # Example2.rice_Chr6.conf.txt
-    b   = 0.5     # RILs population
+    b   = 0.5    # RILs population
     m1  = 20     # individuals in pool-1
     m2  = 20     # individuals in pool-2
     n   = 241    # sample size of population 
@@ -44,7 +44,7 @@ Rscript comes with R, and it can replace R CMD BATCH to run R scripts in R batch
 
 
 # Example3.yeast_Chr13.conf.txt
-    b   = 0.5     # haploid population
+    b   = 0.5    # haploid population
     m1  = 32     # individuals in pool-1
     n   = 301    # sample size of population 
     AF1 = 0.865  # estimated bulked allele frequency in pool-1
